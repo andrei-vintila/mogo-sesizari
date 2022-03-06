@@ -1,8 +1,8 @@
-<p align='center'>
-  <img src='https://user-images.githubusercontent.com/45350572/138070856-731c849a-466b-41a2-b39d-c5b5e76e94fa.png' alt='Vitailse - Opinionated Vite Starter Template with TailwindCSS' width='300'/>
-</p>
+Mogo sesizari is an application that will allow people forom Mogosoaia to report any problems that they are facing. Greater goal being to understand which problems generate the most interest and affect as many people.
 
-Opinionated Vite starter template with [TailwindCSS](https://tailwindcss.com/) 
+
+
+Built using an opinionated Vite starter template with [TailwindCSS](https://tailwindcss.com/) 
 
 Inspired by [Vitesse](https://github.com/antfu/vitesse) ❤
 
