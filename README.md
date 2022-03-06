@@ -1,4 +1,4 @@
-Mogo sesizari is an application that will allow people forom Mogosoaia to report any problems that they are facing. Greater goal being to understand which problems generate the most interest and affect as many people.
+Mogo sesizari is an application that will allow people from Mogosoaia to report any problems that they are facing. Greater goal being to understand which problems generate the most interest and affect as many people.
 
 
 
