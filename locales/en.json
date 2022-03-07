@@ -34,7 +34,11 @@
     "remember-me": "Remember me",
     "forgot-password": "Forgot your password?",
     "or-continue-with": "Or continue with",
-    "sign-in": "Sign in"
+    "sign-in": "Sign in",
+    "invalid-email": "Invalid email",
+    "user-not-found": "No account with that email was found",
+    "wrong-password": "Incorrect password",
+    "email-password-incorrect": "Email or password was incorrect"
   },
   "register": {
     "lets-create-an-account": "Let's create an account",
@@ -42,6 +46,7 @@
     "password": "Password",
     "create-account": "Create account",
     "or-continue-with": "Or continue with",
-    "already-have-account": "Already have an account?"
+    "already-have-account": "Already have an account?",
+    "account-with-email-already-exists": "Account with email enter already exists"
   }
 }

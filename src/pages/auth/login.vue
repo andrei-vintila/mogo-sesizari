@@ -20,10 +20,28 @@
     .then((data) => {
       console.log("Sucesfully logged in")
       router.push('/')
+    }).catch((error) => {
+      console.log(error.code)
+      switch (error.code) {
+          case "auth/invalid-email":
+            formError.value.email = t('login.invalid-email')
+            break;
+          case "auth/user-not-found":
+            formError.value.email = t('login.user-not-found')
+            break;
+          case "auth/wrong-password":
+            formError.value.password = t('login.wrong-password')
+            break;
+          default:
+            formError.value.password = t('login.email-password-incorrect')
+      } 
     })
   }
   const [showPassword, togglePassword] = useToggle(false)
-  const formError = ref({});
+  const formError = ref({
+    email: '',
+    password: '',
+  });
 </script>
 <template>
    <div class="min-h-full flex flex-col justify-center py-12 sm:px-6 lg:px-8">

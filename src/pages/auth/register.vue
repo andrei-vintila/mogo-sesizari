@@ -6,7 +6,7 @@
 	import IconPasswordEye from '~icons/mdi/eye';
 	import IconPasswordEyeCrossed from '~icons/mdi/eye-off';
 	import { ExclamationCircleIcon } from '@heroicons/vue/solid';
-	import { createUserWithEmailAndPassword, getAuth } from 'firebase/auth';
+	import { createUserWithEmailAndPassword, getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 	useHead({
 		title: 'Mogo Sesizari - Login',
 	});
@@ -23,10 +23,25 @@
 			})
 			.catch(error => {
 				console.log(error.code);
+        switch (error.code) {
+          case "auth/email-already-exists":
+          formError.value.email = t('register.account-with-email-already-exists')
+          break
+        } 
 			});
 	};
+  const signInWithGoogle = () => {
+    signInWithPopup(getAuth(), new GoogleAuthProvider())
+      .then((result) => {
+        router.push('/')
+      })
+      .catch((error) => {
+        console.log(error.code)
+      })
+  }
 	const formError = ref({
-		
+		email: '',
+    password: ''
 	});
 	const [showPassword, togglePassword] = useToggle(false)
 </script>
@@ -122,7 +137,7 @@
 
 						<div>
 							<a
-								href="#"
+								@click="signInWithGoogle"
 								class="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
 							>
 								<span class="sr-only">Sign in with Google</span>
