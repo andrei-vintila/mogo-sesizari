@@ -30,7 +30,6 @@
 		"vue": "^3.2.31",
 		"vue-demi": "^0.12.1",
 		"vue-i18n": "^9.2.0-beta.30",
-		"vue-mapbox-ts": "^0.6.4",
 		"vue-router": "^4.0.13",
 		"vue3-google-map": "^0.8.3"
 	},
@@ -47,10 +46,10 @@
 		"unplugin-icons": "^0.13.2",
 		"unplugin-vue-components": "0.17.18",
 		"vite": "^2.8.6",
-		"vite-plugin-pages": "^0.20.2",
+		"vite-plugin-pages": "^0.21.3",
 		"vite-plugin-pwa": "^0.11.13",
 		"vite-plugin-vue-layouts": "^0.6.0",
 		"vite-ssg": "^0.17.11",
-		"vue-tsc": "^0.31.4"
+		"vue-tsc": "^0.32.1"
 	}
 }

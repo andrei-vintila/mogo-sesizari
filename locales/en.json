@@ -1,4 +1,9 @@
 {
+  "404": {
+    "404-error": "404 error",
+    "uh-oh-i-think-youre-lost": "Uh oh! I think you’re lost.",
+    "it-looks-like-the-page-youre-looking-for-doesnt-exist": "It looks like the page you’re looking for doesn't exist."
+  },
   "pages": {
     "home": "Home",
     "other": {
@@ -6,11 +11,6 @@
       "desc": "An example of other pages"
     },
     "not-found": "Page not found"
-  },
-  "404": {
-    "404-error": "404 error",
-    "uh-oh-i-think-youre-lost": "Uh oh! I think you’re lost.",
-    "it-looks-like-the-page-youre-looking-for-doesnt-exist": "It looks like the page you’re looking for doesn't exist."
   },
   "app": {
     "offline": "App ready to work offline",
@@ -30,7 +30,18 @@
   "login": {
     "sign-in-to-your-account": "Sign in to your account",
     "email-address": "Email address",
+    "password": "Password",
     "remember-me": "Remember me",
-    "password": "Password"
+    "forgot-password": "Forgot your password?",
+    "or-continue-with": "Or continue with",
+    "sign-in": "Sign in"
+  },
+  "register": {
+    "lets-create-an-account": "Let's create an account",
+    "email-address": "Email address",
+    "password": "Password",
+    "create-account": "Create account",
+    "or-continue-with": "Or continue with",
+    "already-have-account": "Already have an account?"
   }
 }

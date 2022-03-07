@@ -1,9 +1,7 @@
 {
     "arrowParens": "avoid",
     "semi": true,
-    "tabWidth": 4,
-    "useTabs": true,
+    "tabWidth": 2,
     "vueIndentScriptAndStyle": true,
-    "singleQuote": true,
-	"trailingComma": "es5"
+    "singleQuote": true
 }
